@@ -12,5 +12,6 @@ class B():
 	print (A.sVar)
 	print (a.sVar)
 	A.sVar = [25,26]
+	print (A.sVar)
 	#print (a.z)
 	print (A.__slots__)
